@@ -1,0 +1,10 @@
+{
+  "interval_start": "1900-01-01",
+  "interval_end": "2014-04-14",
+  "predict_start": "2014-04-14",
+  "predict_end": "2014-04-21",
+
+
+  "minimum_estimation": 7,
+  "maximum_estimation": 1800
+}

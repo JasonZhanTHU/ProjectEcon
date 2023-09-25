@@ -1,0 +1,17 @@
+{
+  "Period1": {
+    "start_date": "2015",
+    "end_date": "2016-04-14",
+    "mode": "percentage"
+  },
+  "Period2": {
+    "start_date": "2016-04-14",
+    "end_date": "2018-5-25",
+    "mode": "percentage"
+  },
+  "Period3": {
+    "start_date": "2018-5-25",
+    "end_date": "2020-5-25",
+    "mode": "percentage"
+  }
+}

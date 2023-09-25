@@ -1,0 +1,10 @@
+{
+  "event_date": "2016-04-27",
+  "prev_days": 365,
+  "latt_days": 1500,
+  "xlable": "Days Relative to GDPR",
+  "ylable": "Count",
+  "slide": 1,
+  "window": 1,
+  "mode": "percentage"
+}

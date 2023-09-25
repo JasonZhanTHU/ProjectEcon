@@ -1,0 +1,11 @@
+{
+  "region": ["Asia"],
+  "developer": [],
+  "skip": ["com.h8games.helixjump"],
+  "min_download": -1,
+  "max_download": 10000000000,
+  "earliest_release": "1900",
+  "latest_release": "2050",
+  "latest_earliest_release": "2050",
+  "sentiment": ["NEGATIVE"]
+}

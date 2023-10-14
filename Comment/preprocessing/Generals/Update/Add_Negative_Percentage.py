@@ -37,3 +37,5 @@ for key in data:
 
 with open('../../files/all_App_info.json', 'w') as f:
     json.dump(data, f, indent=4)
+
+

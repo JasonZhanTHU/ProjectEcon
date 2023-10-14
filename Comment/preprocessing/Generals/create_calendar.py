@@ -1,7 +1,7 @@
 import json
 from datetime import date, timedelta
 
-start_date = date(1970, 1, 1)
+start_date = date(2009, 1, 1)
 end_date = date(2025, 1, 1)
 delta = timedelta(days=1)
 
@@ -13,6 +13,6 @@ while current_date <= end_date:
     current_date += delta
 
 # Save the list of date strings to a JSON file
-with open("../../files/calendar.json", 'w') as json_file:
+with open("/Users/jasonzhan/Downloads/ProjectEcon_ExternalFiles/calendar.json", 'w') as json_file:
     json.dump(date_list, json_file)
 

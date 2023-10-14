@@ -71,7 +71,7 @@ for key in file_names:
         continue
     if 'earliest_comment' not in data[key]:
         continue
-    if data[key]['earliest_comment'] > '2019':
+    if data[key]['earliest_comment'] > '2016':
         continue
     if key < "com.panotogomo.nuclear":
         continue
@@ -84,5 +84,5 @@ for key in file_names:
 
 with open('/Users/jasonzhan/Downloads/ProjectEcon_ExternalFiles/Specifics/Estimate_Ads.json', 'w') as json_file:
     json.dump(result, json_file, indent=4)
-with open('/Users/jasonzhan/Downloads/ProjectEcon_ExternalFiles/all_App_info.json', 'w') as json_file:
-    json.dump(data, json_file, indent=4)
+# with open('/Users/jasonzhan/Downloads/ProjectEcon_ExternalFiles/all_App_info.json', 'w') as json_file:
+#     json.dump(data, json_file, indent=4)

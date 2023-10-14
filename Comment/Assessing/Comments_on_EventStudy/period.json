@@ -1,0 +1,13 @@
+{
+  "interval_start": "2015-01-01",
+  "interval_end": "2018-01-01",
+  "predict_start": "2018-01-01",
+  "predict_end": "2018-01-08",
+
+  "count_period_start": "2018-05-25",
+  "count_period_end": "2018-11-25",
+
+
+  "minimum_estimation": 7,
+  "maximum_estimation": 1800
+}

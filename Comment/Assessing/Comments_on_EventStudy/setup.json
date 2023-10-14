@@ -1,0 +1,14 @@
+{
+  "region": ["Americas","Asia","Oceania","Africa"],
+  "developer": [],
+  "skip": ["com.ea.gp.bej3"],
+  "genre": [],
+  "min_price": 0,
+  "max_price": 0,
+  "min_download": -1,
+  "max_download": 10000000000,
+  "earliest_release": "1900",
+  "latest_release": "2050",
+  "latest_earliest_comment": "2050",
+  "sentiment": ["NEGATIVE","POSITIVE"]
+}

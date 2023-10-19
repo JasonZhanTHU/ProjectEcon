@@ -42,6 +42,10 @@ for i in range(0, 100):
 
     period['predict_end'] = pd.to_datetime(period['predict_end']) + pd.DateOffset(days=7)
     period['predict_end'] = str(period['predict_end'])[:10]
+
+    # period['interval_end'] = pd.to_datetime(period['interval_end']) + pd.DateOffset(days=7)
+    # period['interval_end'] = str(period['interval_end'])[:10]
+
     x_axis.append(period['predict_start'])
 
 plt.figure(figsize=(25, 15))

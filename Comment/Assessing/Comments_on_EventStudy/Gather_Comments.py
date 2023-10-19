@@ -19,17 +19,20 @@ def check_validity(file, spec):
         return False
     if spec['region'] != [] and not app_data[file]['region'] in spec['region']:
         return False
-    if spec['latest_earliest_comment'] is not None and (
-            'earliest_comment' not in app_data[file] or app_data[file]['earliest_comment'] > spec[
-        'latest_earliest_comment']):
+    if app_data[file]['review_sum']<100:
         return False
+
+    # if spec['latest_earliest_comment'] is not None and (
+    #         'earliest_comment' not in app_data[file] or app_data[file]['earliest_comment'] > spec[
+    #     'latest_earliest_comment']):
+    #     return False
     if app_data[file]['realInstalls'] < spec['min_download']:
         return False
     if app_data[file]['realInstalls'] > spec['max_download']:
         return False
-    if app_data[file]['released'] is None or app_data[file]['released'] > spec['latest_release'] or \
-            app_data[file]['released'] < spec['earliest_release']:
-        return False
+    # if app_data[file]['released'] is None or app_data[file]['released'] > spec['latest_release'] or \
+    #         app_data[file]['released'] < spec['earliest_release']:
+    #     return False
     return True
 
 
